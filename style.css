@@ -4,7 +4,13 @@
 .col-sm-6.login {
     text-align: right;
 }
-
+.Text01 p {
+    margin: 0;
+    margin-bottom: 3%;
+}
+.col-sm-12.boderTitle{
+    display: none;
+}
 .logo {
     float: left;
     margin: 17px 0;
@@ -51,7 +57,7 @@
 }
 /*  */
 .menu{
-    height: 52px;
+    min-height: 52px;
     width: 100%;
     clear: left;
 }
@@ -174,7 +180,8 @@ footer {
     padding-bottom: 30px;
 }
 footer .container .row .col-sm-4 img {
-    width: 296px;
+    width: 100%;
+    padding-right: 15%;
     height: 59px;
 }
 .col-sm-4.Copyright p {
@@ -669,10 +676,113 @@ button.btn.btn-outline-danger {
         right: 0;
         top: 20px;
     }
+    .Info-Student .col-sm-6.pg0 p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .Cost01 .bdCost01 {
+        width: 80% !important;
+        height: 120px;
+        background: #D5DCE5;
+        margin: 20px 0 0 0;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost01 i {
+        text-align: center;
+        font-size: 55px;
+        color: #828282;
+        margin-top: 13% !important;
+        margin-left: 38% !important;
+    }
+    .col-sm-12.boderTitle{
+        display: block !important;
+    }
+    .col-sm-12.boderTitle {
+        padding: 0;
+        border-bottom: 1px solid #BDBDBD;
+        height: 30px;
+        padding-left: 18px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .bdbot.Lost {
+        display: none;
+    }
+    button.btnUploadCard {
+        border: none;
+        background: #0066B2;
+        color: white;
+        width: 72px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 0 !important;
+        margin-top: 10px !important;
+    }
     .top-header {
-        height: 71px;
+        height: 10%;
          padding: 0 !important; 
         position: relative;
+    }
+    .Info-Student .form-control{
+        display: inline-block;
+        width: 100%;
+        height: 30px;
+        font-size: 13px;
+        padding: 0 3px;
+    }
+    .logo {
+        padding: 5% 0 0 6%;
+        margin: 0;
+    }
+    .col-sm-4.border-lf-rg {
+        border-left: none; 
+        border-right: none;
+    }
+    .Place.flex-container.FullFlexBox {
+        transform: none !important;
+        font-size: 14px;
+        padding-top: 10%;
+        padding-left: 5%;
+        display: block;
+    }
+    .row.pd0-mg0-bd0 .form-control {
+        width: 100%;
+        height: 30px;
+    }
+    .input-group.add-on.alert.alert-dismissable.mg0-pd0 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
+    .col-sm-6.logo img {
+        width: 140px;
+    }
+    .col-sm-6.login {
+        text-align: right;
+        padding: 0;
+    }
+    .user{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        display: inline-block;
+    }
+    .user i {
+        color: #F27125;
+        padding: 0 1px;
+    }
+    .Logout {
+        border: 1px solid #0066B2;
+        border-radius: 5px;
+        color: #0066B2;
+        font-size: 10px;
+    }
+    .Logout i {
+        padding-right: 3px;
     }
     .menu{
         background-color: #f27125;
@@ -698,9 +808,19 @@ button.btn.btn-outline-danger {
     .flex-container {
         display: flex;
         justify-content: space-evenly;
-        margin-top: -15px;
-        transform: scale(0.6);
-        padding-right: 25px;
+        margin-top: -15px !important;
+        transform: scale(0.6) !important;
+        padding-right: 10px;
+    }
+    .Click-Type.flex-container.FullFlexBox {
+        transform: none !important;
+    }
+    .BoxClick {
+        width: 24%;
+        border-bottom: 1px solid gray;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
     }
     .border-arrow {
         width: 55px;
@@ -712,7 +832,7 @@ button.btn.btn-outline-danger {
     }
     .pic-user-down {
         text-align: center;
-        padding-left: 45px;
+        padding-left: 57px !important;
     }
     .name-profile {
         font-size: 14px;
@@ -720,6 +840,22 @@ button.btn.btn-outline-danger {
         font-weight: normal;
         font-style: normal;
         padding-left: 22px;
+    }
+    .PictureCCCD {
+        width: 80% !important;
+        height: 130px;
+        border: 1px solid #BDBDBD;
+        position: relative;
+        background: #D5DCE6;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .PictureCCCD i {
+        font-size: 55px;
+        margin-top: 10%;
+        margin-left: 26px;
+        color: #828282;
     }
     .border-Upload img {
         width: 50px;
@@ -733,7 +869,39 @@ button.btn.btn-outline-danger {
         background: #D5DCE6;
         width: 110px;
     }
-    
+    .border-Upload {
+        height: 70%;
+        text-align: center;
+        padding: 18px;
+        border: 1px solid #BDBDBD;
+        border-radius: 8px;
+        background: #D5DCE6;
+        width: 100%;
+    }
+    .border-Upload img {
+        width: 50px;
+        padding-top: 5%;
+    }
+    .btnbtncenter {
+        text-align: center;
+    }
+    .col-sm-6.pd0 {
+        padding-bottom: 5%;
+    }
+    .container.TestScholarship .form-group .form-control {
+        width: 58%;
+        font-size: 13px;
+        padding: 0px 5px;
+        height: 25px;
+    }
+    .container.Scholarship .row .col-sm-7 p {
+        margin: 2% 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .Click-Type.flex-container.FullFlexBox {
+        transform: none !important;
+    }
     .container.TestScholarship .center .border-Upload {
         margin-left: 20px;
     }
@@ -748,6 +916,10 @@ button.btn.btn-outline-danger {
         padding: 0;
         margin: 0;
     }
+    .container.TestScholarship .center p {margin: 8px 0;font-size: 14px;text-align: center;}
+    .container.TestScholarship .center .border-Upload {
+        margin-left: 0;
+    }
     .container.TestScholarship .btnUploadSchoolRank {
         font-size: 14px;
         margin-top: 32px;
@@ -757,7 +929,43 @@ button.btn.btn-outline-danger {
         border-radius: 3px;
         width: 108px;
     }
-    .PictureCCCD {
+    .container.TestScholarship .form-group label {
+        min-width: 50%;
+    }
+    .Info-Student .row.pd10 {
+        padding-bottom: 30px;
+    }
+    .Info-Student .col-sm-4.pd0-mg0 {
+        margin: 0;
+        padding: 0;
+        width: 32%;
+    }
+    .Info-Student .col-sm-4.pd0-mg0 p {margin-bottom: 10px;font-size: 13px;}
+    .Info-Student .col-sm-8.pd0-mg0 {
+        width: 68%;
+        padding: 0;
+    }
+    .Info-Student .col-sm-8.pd0-mg0 p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .container.TestScholarship .form-group .form-control {
+        width: 100%;
+        font-size: 13px;
+        padding: 0px 5px;
+        height: 25px;
+    }
+    .border-Upload img {
+        width: 50px;
+        padding-top: 10%;
+    }
+    .TestScholarship .row.pd20-center {padding-left: 0;}
+    .TestScholarship .row.pd20-center p {
+        font-size: 14px;
+        margin: 3% 0;
+        text-align: center;
+    }
+    /* .PictureCCCD {
         width: 195px;
         height: 125px;
         border: 1px solid #BDBDBD;
@@ -765,11 +973,11 @@ button.btn.btn-outline-danger {
         background: #D5DCE6;
         border-radius: 6px;
         margin-bottom: 20px;
-    }
+    } */
     button.btnCCCD {
-        position: absolute;
-        bottom: 45px;
-        right: 5px;
+         position: static;
+        /* bottom: 45px; */ 
+        /* right: 5px; */
         width: 86px;
         height: 32px;
         background: #0066B2;
@@ -778,7 +986,7 @@ button.btn.btn-outline-danger {
         font-size: 16px;
         border-radius: 5px;
     }
-    .PictureCCCD i {font-size: 55px;margin-top: 20px;margin-left: 30px;color: #828282;}
+    /* .PictureCCCD i {font-size: 55px;margin-top: 20px;margin-left: 30px;color: #828282;} */
     .Cost01 .bdCost01 {
         width: 85px;
         height: 215px;
@@ -853,7 +1061,312 @@ button.btn.btn-outline-danger {
         font-size: 14px;
         font-weight: 700;
         font-style: normal;
-        padding-top: 45px;
+        /* padding-top: 45px; */
         margin-top: 50px;
+    }
+}
+/* laptop 1024 */
+@media only screen and (max-width: 1024px){
+    .menu ul li.pd70 {
+        padding-right: 25px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3px;
+        transform: scale(0.96);
+        padding-right: 10px;
+    }
+    .pic-user-down {
+        text-align: center;
+        padding-left: 87px;
+    }
+    .border-arrow {
+        width: 38px;
+        border-top: 2px dotted #BDBDBD;
+        position: absolute;
+        top: 29%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+      }
+      .arrow {
+        margin-left: 31px;
+        color: #BDBDBD;
+        font-size: 14px;
+        position: absolute;
+        top: -8px;
+      }
+
+      .PictureCCCD {
+        width: 200px;
+        height: 118px;
+        border: 1px solid #BDBDBD;
+        position: relative;
+        background: #D5DCE6;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    .PictureCCCD i {
+        font-size: 55px;
+        margin-top: 10px;
+        margin-left: 26px;
+        color: #828282;
+    }
+    .costResponsive {
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 55px;
+    }
+    .Cost01 .bdCost01 {
+        width: 86px;
+        height: 151px;
+        background: #D5DCE5;
+        margin: 20px 0 0 0px;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost01 i {
+        text-align: center;
+        font-size: 71px;
+        color: #828282;
+        margin-top: 29px;
+        margin-left: 11px;
+    }
+    .Cost01 p{
+        text-align: left !important;
+    }
+    button.btnUploadCost01 {
+        margin-left: 0;
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 3px;
+        width: 89px;
+        height: 30px;
+    }
+    .Cost01 .bdCost02 {
+        width: 86px;
+        margin-left: 0;
+        height: 149px;
+        background: #D5DCE5;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost02 img {
+        width: 80px;
+        height: 55px;
+        margin-top: 40px;
+        margin-left: 4px;
+    }
+    .Cost01 .btnUploadCost02 {
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        width: 89px;
+        margin-left: 0;
+        height: 30px;
+    }
+    
+      button.btnUploadCard {
+        border: none;
+        background: #0066B2;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 64px;
+    }
+    .BoxClick {
+        width: 24%;
+    }
+    .ScholarLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .ScholarLeft div:last-child{
+        max-width: 100% !important;
+    }
+    .ScholarLeft div:last-child p{
+        text-align: left !important;
+    }
+}
+ /* / fix menu in width 1200px   / */
+@media only screen and (max-width: 1200px){
+    .menu ul li.pd70 {
+        padding-right: 25px;
+    }
+}
+ /* / Tablet 768  / */
+@media only screen and (max-width: 768px){
+    .container.TestScholarship .center .border-Upload {
+        margin-left: 0px;
+    }
+    .container.TestScholarship .btnUploadSchoolRank {
+        font-size: 14px;
+        width: 108px;
+        margin-top: 56px;
+        border: none;
+        background: #0066B2;
+        color: white;
+        border-radius: 3px;
+        padding: 2px 8px;
+    }
+    .formGroupinput{
+        width: 90px !important;
+    }
+    .Info-Student .Signin .col-sm-4 h5 {
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        padding: 15px;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    p.SmallTitle {
+        width: 90%;
+    }
+    .Cost01 .bdCost01 {
+        width: 86px;
+        height: 151px;
+        background: #D5DCE5;
+        margin: 22% 0 0 0;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost02 {
+        width: 86px;
+        height: 149px;
+        background: #D5DCE5;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-left: 0 !important;
+    }
+    .Place.flex-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    .flex-container {
+        transform: scale(0.88);
+        margin-top: 3px;
+        padding-right: 10px;
+    }
+    .border-arrow {
+        width: 20px;
+        border-top: 2px dotted #BDBDBD;
+        position: absolute;
+        top: 29%;
+        left: 113%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow {
+        margin-left: 15px;
+        color: #BDBDBD;
+        font-size: 14px;
+        position: absolute;
+        top: -8px;
+    }
+    .border-green {
+        margin-left: 24px;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .PictureCCCD {
+        width: 200px;
+        height: 118px;
+        border: 1px solid #BDBDBD;
+        position: relative;
+        background: #D5DCE6;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    .PictureCCCD i {
+        font-size: 55px;
+        margin-top: 10px;
+        margin-left: 26px;
+        color: #828282;
+    }
+    .costResponsive {
+        font-size: 14px;
+        padding-top: 20px;
+        padding-left: 55px;
+    }
+    .Cost01 .bdCost01 {
+        width: 86px;
+        height: 151px;
+        background: #D5DCE5;
+        margin: 20px 0 0 0;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost01 i {
+        text-align: center;
+        font-size: 71px;
+        color: #828282;
+        margin-top: 29px;
+        margin-left: 11px;
+    }
+    button.btnUploadCost01 {
+        margin-left: 0;
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 3px;
+        width: 89px;
+        height: 30px;
+    }
+    .Cost01 .bdCost02 {
+        width: 86px;
+        margin-left: 22px;
+        height: 149px;
+        background: #D5DCE5;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost02 img {
+        width: 80px;
+        height: 55px;
+        margin-top: 40px;
+        margin-left: 4px;
+    }
+    .Cost01 .btnUploadCost02 {
+        background: #0066B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        width: 89px;
+        margin-left: 0;
+        height: 30px;
+    }
+    .Cost01 p{
+        text-align: left !important;
+    }
+    button.btnUploadCard {
+        border: none;
+        background: #0066B2;
+        color: white;
+        width: 72px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-left: 136px;
+        
+    }
+    .BoxClick {
+        width: 24%;
+        border-bottom: 2px solid gray;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
     }
 }
