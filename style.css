@@ -4,6 +4,20 @@
 .col-sm-6.login {
     text-align: right;
 }
+p.italic-nor {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+
+p.center-nor {
+    text-align: center !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    width: 100%;
+    padding: 1px 0 !important;
+}
 .Text01 p {
     margin: 0;
     margin-bottom: 3%;
@@ -390,6 +404,7 @@ button.btnUploadPic {
     border-radius: 5px;
     text-align: center;
     margin-left: 10px;
+    width: 145px;
 }
 
 .container.TestScholarship .form-group label {
@@ -412,7 +427,7 @@ button.btnUploadPic {
 }
 
 .container.TestScholarship .form-group .form-control {
-    width: 65px;
+    width: 100%;
     font-size: 13px;
     padding: 0px 5px;
     height: 25px;
@@ -676,13 +691,35 @@ button.btn.btn-outline-danger {
         right: 0;
         top: 20px;
     }
+    .Cost01 .bdCost02 {
+        width: 100% !important;
+        height: 190px !important;
+        background: #D5DCE5;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .Cost01 .bdCost02 img {
+        width: 80px;
+        height: 55px;
+        margin-top: 68px !important;
+        margin-left: 37% !important;
+    }
+    p.center-nor{
+        width: auto !important;
+    }
+    p.italic-nor {
+        /* text-align: center !important; */
+        font-style: italic;
+        font-weight: normal !important;
+        font-size: 14px !important;
+    }
     .Info-Student .col-sm-6.pg0 p {
         font-size: 14px;
         text-align: left;
     }
     .Cost01 .bdCost01 {
-        width: 80% !important;
-        height: 120px;
+        width: 100% !important;
+        height: 190px !important;
         background: #D5DCE5;
         margin: 20px 0 0 0;
         border-radius: 5px;
@@ -691,8 +728,8 @@ button.btn.btn-outline-danger {
         text-align: center;
         font-size: 55px;
         color: #828282;
-        margin-top: 13% !important;
-        margin-left: 38% !important;
+        margin-top: 15% !important;
+        margin-left: 41% !important;
     }
     .col-sm-12.boderTitle{
         display: block !important;
@@ -1023,7 +1060,6 @@ button.btn.btn-outline-danger {
     .Cost01 p {
         padding: 0 !important;
         margin: 0 !important;
-        width: 100px !important;
     }
     button.btnUploadCost01 {
         margin-left: 0;
@@ -1067,6 +1103,16 @@ button.btn.btn-outline-danger {
 }
 /* laptop 1024 */
 @media only screen and (max-width: 1024px){
+    .container.TestScholarship .btnUploadSchoolRank {
+        font-size: 14px;
+        margin-top: 32px;
+        border: none;
+        background: #0066B2;
+        color: white;
+        border-radius: 3px;
+        padding: 2px 8px;
+        width: 130px;
+    }
     .menu ul li.pd70 {
         padding-right: 25px;
     }
@@ -1131,8 +1177,15 @@ button.btn.btn-outline-danger {
         margin-top: 29px;
         margin-left: 11px;
     }
-    .Cost01 p{
+    /* .Cost01 p{
         text-align: left !important;
+    } */
+    p.center-nor {
+        text-align: center !important;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        width: 90px;
+        padding: 1px 0 !important;
     }
     button.btnUploadCost01 {
         margin-left: 0;
@@ -1194,6 +1247,13 @@ button.btn.btn-outline-danger {
     }
     .ScholarLeft div:last-child p{
         text-align: left !important;
+    }
+    p.italic-nor {
+        /* text-align: left !important; */
+        font-style: italic;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        width: 100%;
     }
 }
  /* / fix menu in width 1200px   / */
@@ -1348,9 +1408,9 @@ button.btn.btn-outline-danger {
         margin-left: 0;
         height: 30px;
     }
-    .Cost01 p{
+    /* .Cost01 p{
         text-align: left !important;
-    }
+    } */
     button.btnUploadCard {
         border: none;
         background: #0066B2;
