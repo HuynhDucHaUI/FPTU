@@ -6,7 +6,8 @@
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png">
     <link href="./fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet"> <!--load all styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
@@ -190,9 +191,9 @@
             <div class="Info-Student">
                 <div class="title-main">
                     Thông tin thí sinh
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <div class="row">
+                <div class="row toggle-form">
                     <div class="col-sm-6">
                         <form>
                             <div class="form-group">
@@ -259,17 +260,17 @@
             <div class="Info-Student">
                 <div class="title-main">
                     Thông tin liên lạc
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <div class="row">
+                <div class="row toggle-form">
                     <div class="col-sm-6">
                         <form>
                             <div class="form-group">
-                                <label for="formGroupExampleInput">Họ và tên người nhận thư:</label>
+                                <label for="formGroupExampleInput">Họ và tên người nhận:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Another input" value="Nguyễn Phạm Trung Hiếu">
                               </div>
                               <div class="form-group">
-                                <label for="formGroupExampleInput2">Số điện thoại nhận thư:</label>
+                                <label for="formGroupExampleInput2">Số điện thoại nhận:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="01/01/1994">
                               </div>
                               <div class="form-group">
@@ -328,9 +329,9 @@
             <div class="Info-Student">
                 <div class="title-main">
                    Đăng ký ngành học
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <div class="row Signin">
+                <div class="row Signin toggle-form">
                     <div class="col-sm-4">
                         <h5>Quản trị kinh doanh</h5>
                         <form>
@@ -454,9 +455,9 @@
             <div class="Info-Student">
                 <div class="title-main">
                    Địa điểm học
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <div class="Place flex-container FullFlexBox">
+                <div class="Place flex-container FullFlexBox toggle-form">
                     <div class="NamePlace">
                         <form>
                             <div class="form-check">
@@ -502,10 +503,10 @@
             <div class="Info-Student">
                 <div class="title-main">
                    Đăng ký học bổng theo phương thức
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
                 <div class="container">
-                    <div class="row pd10">
+                    <div class="row pd10 toggle-form">
                         <div class="col-sm-6 pd0">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
@@ -699,10 +700,10 @@
             <div class="Info-Student">
                 <div class="title-main">
                    Căn cước công dân
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row toggle-form">
                         <div class="col-sm-6 pg0">
                             <p class="SmallTitle">Tải lên hình ảnh căn cước công dân của bạn</p>
                             <div class="PictureCCCD">
@@ -728,34 +729,34 @@
                                         <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Họ và tên: <span class="font-weight-bold">Nguyễn Huỳnh Đức</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Ngày sinh: <span class="font-weight-bold">27/07/1998</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Giới tính: <span class="font-weight-bold">Nam</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Quê quán: <span class="font-weight-bold">Liên Nghĩa, Văn Giang, Hưng Yên</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Thường trú: <span class="font-weight-bold">Liên Nghĩa, Văn Giang, Hưng Yên</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Ngày cấp: <span class="font-weight-bold">01/05/2021</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Nơi cấp: <span class="font-weight-bold">Hưng Yên</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Quốc tịch: <span class="font-weight-bold">Việt Nam</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Mã quận/huyện: <span class="font-weight-bold">0000000000000</span></p>
                                     </div>
                                     <div class="Text01">
-                                        <p>Số CCCD: <span class="font-weight-bold">0000000000000</span></p>
+                                        <p>Mã tỉnh: <span class="font-weight-bold">0000000000000</span></p>
                                     </div>
                                     
                                 </div>
@@ -773,10 +774,10 @@
                         <p>Lệ phí</p>
                     </div>
                     <div class="col-sm-7 bdbot Lost" style="text-align: right;padding-top: 18px;padding-right: 18px;">
-                        <a href="#">Ẩn bớt</a>
+                        <a href="#" class="btnToggle">Ẩn bớt</a>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row toggle-form">
                     <div class="col-sm-3">
                         <div class="Cost01">
                             <div class="bdCost01">
@@ -804,49 +805,51 @@
                     </div>
                     <div class="col-sm-7 title14">
                         <p>Số tiền phải đóng:</p>
-                        <p class="RedColor">100.000 VND</p>
+                        <p class="RedColor">200.000 VND</p>
                         <p>Tài khoản ngân hàng:</p>
                         <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
-                        <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
-                        <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
-                        <p style="margin-top: 13px;">Tài khoản ngân hàng:</p>
-                        <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
+                        <p class="BoldColor">STK: 0000088886666</p>
+                        <p class="BoldColor">Ngân hàng:Ngân hàng TMCP Tiên Phong - Chi nhánh Hoàn Kiếm</p>
+                        <p style="margin-top: 13px;">Nội dung chuyển khoản:</p>
+                        <p class="BoldColor">Nguyễn Huỳnh Đức - 000000000000 - Lệ phí thi học bổng 2022</p>
                     </div>
                 </div>
             </div>
             <div class="Info-Student" style="padding-bottom: 30px;">
                 <div class="title-main">
                    Giấy tờ khác
-                    <a href="#">Ẩn bớt</a>
+                    <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <p style="padding: 18px 0 0 18px;font-size: 14px;font-weight: normal;margin: 0;">Tên giấy tờ</p>
-                <div class="row pd0-mg0-bd0">
-                    <div class="col-sm-6 form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="Tên loại giấy tờ">
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="btnbtncenter">
-                            <button class="btnUploadCard">Tải lên</button>
+                <div class="toggle-form">
+                    <p style="padding: 18px 0 0 18px;font-size: 14px;font-weight: normal;margin: 0;">Tên giấy tờ</p>
+                    <div class="row pd0-mg0-bd0">
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="Tên loại giấy tờ">
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="btnbtncenter">
+                                <button class="btnUploadCard">Tải lên</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="container">
-                    <p style="font-size: 14px;font-weight: normal;margin: 0;">Giấy tờ đã tải lên</p>
-                    <!-- <div class="alert alert-warning alert-dismissable">
-                        <span class="pull-right" data-dismiss="alert">×</span><input type="text">
-                    </div> -->
                     
-                    <div class="input-group add-on alert alert-dismissable mg0-pd0">
-                        <input type="text" class="form-control" value="Tên loại giấy tờ 1">
-                        <div class="input-group-btn" data-dismiss="alert">
-                            <button class="btn btn-outline-danger">x</button>
+                    <div class="container">
+                        <p style="font-size: 14px;font-weight: normal;margin: 0;">Giấy tờ đã tải lên</p>
+                        <!-- <div class="alert alert-warning alert-dismissable">
+                            <span class="pull-right" data-dismiss="alert">×</span><input type="text">
+                        </div> -->
+                        
+                        <div class="input-group add-on alert alert-dismissable mg0-pd0">
+                            <input type="text" class="form-control" value="Tên loại giấy tờ 1">
+                            <div class="input-group-btn" data-dismiss="alert">
+                                <button class="btn btn-outline-danger">x</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="input-group add-on alert alert-dismissable mg0-pd0">
-                        <input type="text" class="form-control" value="Tên loại giấy tờ 2">
-                        <div class="input-group-btn" data-dismiss="alert">
-                            <button class="btn btn-outline-danger">x</button>
+                        <div class="input-group add-on alert alert-dismissable mg0-pd0">
+                            <input type="text" class="form-control" value="Tên loại giấy tờ 2">
+                            <div class="input-group-btn" data-dismiss="alert">
+                                <button class="btn btn-outline-danger">x</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -898,5 +901,6 @@
     </div>
     
 </footer>
+<script src="./script.js"></script>
 </body>
 </html>

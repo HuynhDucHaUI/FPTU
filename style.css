@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 .BackgrOrange {
     background: #f27125;
 }
@@ -84,7 +85,7 @@ p.center-nor {
     display: inline-block;
 }
 .menu ul li.pd70{
-    padding-right: 65px;
+    padding-right: 80px;
 }
 
 .menu ul li a{
@@ -404,7 +405,7 @@ button.btnUploadPic {
     border-radius: 5px;
     text-align: center;
     margin-left: 10px;
-    width: 145px;
+    width: 155px;
 }
 
 .container.TestScholarship .form-group label {
@@ -712,6 +713,7 @@ button.btn.btn-outline-danger {
         font-style: italic;
         font-weight: normal !important;
         font-size: 14px !important;
+        width: 100% !important;
     }
     .Info-Student .col-sm-6.pg0 p {
         font-size: 14px;
@@ -894,26 +896,14 @@ button.btn.btn-outline-danger {
         margin-left: 26px;
         color: #828282;
     }
-    .border-Upload img {
-        width: 50px;
-    }
     .border-Upload {
-        height: 80px;
+        height: 155px !important;
         text-align: center;
-        padding: 18px;
         border: 1px solid #BDBDBD;
         border-radius: 8px;
         background: #D5DCE6;
-        width: 110px;
-    }
-    .border-Upload {
-        height: 70%;
-        text-align: center;
-        padding: 18px;
-        border: 1px solid #BDBDBD;
-        border-radius: 8px;
-        background: #D5DCE6;
-        width: 100%;
+        width: 100% !important;
+        padding-top: 30px !important;
     }
     .border-Upload img {
         width: 50px;
@@ -1084,9 +1074,17 @@ button.btn.btn-outline-danger {
         height: 25px;
         margin-top: 4px;
     }
+    .TestScholarship .row.pd20-center p {
+        margin: 0;
+        font-size: 14px;
+        width: 100% !important;
+        text-align: center;
+        padding: 10px 0;
+    }
     footer .container .row .col-sm-4 img {
-        width: 155px;
-        height: 60px;
+        width: 300px;
+        height: 80px;
+        margin-left: 10px;
     }
     .col-sm-4.Copyright p {
         margin-top: 10px;
@@ -1105,7 +1103,7 @@ button.btn.btn-outline-danger {
 @media only screen and (max-width: 1024px){
     .container.TestScholarship .btnUploadSchoolRank {
         font-size: 14px;
-        margin-top: 32px;
+        margin-top: 55px;
         border: none;
         background: #0066B2;
         color: white;
@@ -1253,7 +1251,7 @@ button.btn.btn-outline-danger {
         font-style: italic;
         font-weight: normal !important;
         font-size: 14px !important;
-        width: 100%;
+        width: 63%;
     }
 }
  /* / fix menu in width 1200px   / */
@@ -1264,6 +1262,32 @@ button.btn.btn-outline-danger {
 }
  /* / Tablet 768  / */
 @media only screen and (max-width: 768px){
+    .container.TestScholarship .btnUploadSchoolRank {
+        font-size: 14px;
+        width: 110px !important;
+        margin-top: 25px !important;
+        border: none;
+        background: #0066B2;
+        color: white;
+        border-radius: 3px;
+        padding: 3px 2px !important;
+    }
+    .border-Upload {
+        height: 105px;
+        text-align: center;
+        padding: 18px;
+        border: 1px solid #BDBDBD;
+        border-radius: 8px;
+        background: #D5DCE6;
+        width: 165px;
+    }
+    .TestScholarship .row.pd20-center p {
+        margin: 0;
+        font-size: 14px;
+        width: 185px;
+        text-align: center;
+        padding: 10px 0;
+    }
     .container.TestScholarship .center .border-Upload {
         margin-left: 0px;
     }
@@ -1428,5 +1452,28 @@ button.btn.btn-outline-danger {
         text-align: center;
         margin-top: 30px;
         font-size: 16px;
+    }
+    p.italic-nor {
+        /* text-align: left !important; */
+        font-style: italic;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        width: 88%;
+    }
+    button.btnUploadPic {
+        background: #0066B2;
+        border: none;
+        color: white;
+        font-size: 16px;
+        padding: 5px 20px;
+        border-radius: 5px;
+        text-align: center;
+        margin-left: 10px;
+        width: 155px;
+    }
+    .container.Scholarship .row .col-sm-7 p {
+        margin: 10px 0;
+        font-size: 14px;
+        text-align: center !important;
     }
 }
