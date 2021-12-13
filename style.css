@@ -1,10 +1,115 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+/* Giấy tờ khác */
+.btnOtherFile{
+    margin-left: 0 !important;
+}
+
+.otherFileTitle{
+    font-size: 14px;
+}
+
+.btnDelete{
+    float: right;
+    color: #ff0000b0;
+    border: solid #ff00005c 1px;
+    text-align: center;
+    padding: 0 10px;
+}
+/* End Giáy tờ khác */
+
+/* CheckBox Square */
+.form-check-input[type=checkbox] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+    transform: scale(1.5);
+}
+.form-check-input:checked {
+    background-color: #f27125;
+    border-color: #f27125;
+}
+/* End CheckBox Square */
 .BackgrOrange {
     background: #f27125;
+    height:52px;
+}
+.container.height50 {
+    position: relative;
+    z-index: 1000 !important;
+}
+.col-sm-6.logo img {
+    width: 165px;
+    height: 46px;
 }
 .col-sm-6.login {
     text-align: right;
 }
+label.width135 {
+    min-width: 152px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.NamePlace label {
+    font-size: 14px;
+}
+.row.container-fluid.Signin-Pd0 {
+    padding: 0 0 0 7px;
+}
+.row.container-fluid.Signin-Pd0 label {
+    font-size: 14px;
+    margin-top: 3px;
+}
+label.Contact {
+    width: 161px;
+    font-size: 14px;
+}
+
+textarea.form-control.height70 {
+    height: 50px;
+}
+
+.WidthContact {
+    display: inline-block;
+    width: 166px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0 3px;
+}
+
+.WidthContactFull {
+    display: inline-block;
+    width: 70%;
+    font-size: 13px;
+    height: 30px;
+    padding: 0 3px;
+}
+
+.Competition {
+        width: 105px;
+        height: auto;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .WidthCompetition {
+        display: inline-block;
+        width: 29%;
+        height: 30px;
+        font-size: 13px;
+    }
+
+.House-pd0{
+    padding:0 0 0 18px !important;
+    margin-top: -10px;
+}
+
+.form-check-input[type=radio] {
+    background: white;
+    border: 1px solid gray;
+    transform: scale(1.5);
+}
+
+.form-check-input:checked[type=radio] {
+    background: #f27125;
+}
+
 p.italic-nor {
     text-align: center;
     font-style: italic;
@@ -30,7 +135,6 @@ p.center-nor {
     float: left;
     margin: 17px 0;
 }
-
 .login {
     float: right;
     padding-top: 27px;
@@ -42,10 +146,12 @@ p.center-nor {
 .user{
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     display: inline-block;
+    position: relative;
 }
+
 /*  */
 .Logout {
     display: inline-block;
@@ -54,10 +160,18 @@ p.center-nor {
     border-radius: 5px;
     color: #0066B2;
 }
+.username {
+    display: inline-block;
+    padding-right: 45px;
+}
 
 .user i {
     color: #F27125;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
+    font-size: 28px;
+    position: absolute;
+    top: -4px;
+    right: 0;
 }
 
 .Logout {
@@ -75,6 +189,8 @@ p.center-nor {
     min-height: 52px;
     width: 100%;
     clear: left;
+    line-height: 52px;
+    padding: 0;
 }
 .menu ul{
     line-height: 52px;
@@ -236,16 +352,24 @@ footer .container .row .col-sm-12 {
 
 .border-green i {
     font-size: 53px;
-    color: #0DB04B;
+    color: #0066B2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.border-green img {
+    width: 22px;
+    height: 26px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .border-green {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #0DB04B;
+    width: 52px;
+    height: 52px;
+    border: 4px double #0066B2;
     border-radius: 50%;
     position: relative;
     margin-left: 20px;
@@ -257,8 +381,8 @@ footer .container .row .col-sm-12 {
     font-style: normal;
 }
 .pic-user-down {
-    text-align: center;
-    padding-left: 118px;
+    text-align: left;
+    padding-left: 50px;
 }
 
 .icon-user i {
@@ -266,7 +390,10 @@ footer .container .row .col-sm-12 {
     color: #0066B2;
     padding-bottom: 3px;
 }
-.border-green.approve i {
+.pic-user-down img {
+    padding-left: 4px;
+}
+/* .border-green.approve i {
     color: #0066B2;
 }
 
@@ -275,10 +402,11 @@ footer .container .row .col-sm-12 {
 }
 .border-green.pending i {
     color: #BDBDBD;
-}
+} */
 
 .border-green.pending {
-    border: 1px solid #BDBDBD;
+    border: 5px double white;
+    background: #BDBDBD;
 }
 .Status-Profile p {
     text-align: center;
@@ -293,32 +421,39 @@ footer .container .row .col-sm-12 {
 }
 
 .border-arrow {
-    width: 55px;
+    width: 60px;
     border-top: 2px dotted #BDBDBD;
     position: absolute;
     top: 29%;
-    left: 109%;
+    left: 103%;
     transform: translate(-50%, -50%);
 }
 .arrow {
-    margin-left: 49px;
+    margin-left: 58px;
     color: #BDBDBD;
     font-size: 14px;
     position: absolute;
     top: -8px;
 }
-.Info-Student .form-control{
+.WidthInfoStudent{
     display: inline-block;
-    width: 159px;
+    width: 175px;
     height: 30px;
     font-size: 13px;
     padding: 0 3px;
 }
-.Info-Student .form-group label {
+/* .Info-Student .form-control{
+    display: inline-block;
+    width: 175px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0 3px;
+} */
+/* .Info-Student .form-group label {
     min-width: 169px;
     font-size: 16px;
     font-weight: normal;
-}
+} */
 .Info-Student {
     background: #F0F2F5;
     margin-top: 20px;
@@ -378,16 +513,25 @@ footer .container .row .col-sm-12 {
     padding: 0;
 }
 .Info-Student .row.pd10 {
-    padding-bottom: 50px;
+    padding: 20px 0 50px 0 !important;
+}
+label.form-check-label.mg-left10 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-group.mg-top10 {
+    margin-top: 25px;
+    margin-left: 35px;
 }
 .border-Upload {
-    height: 105px;
+    height: 132px;
     text-align: center;
-    padding: 18px;
+    padding: 30px;
     border: 1px solid #BDBDBD;
     border-radius: 8px;
     background: #D5DCE6;
-    width: 186px;
+    width: 221px;
 }
 
 .container.Scholarship .row .col-sm-7 p {
@@ -395,7 +539,14 @@ footer .container .row .col-sm-12 {
     font-size: 14px;
     text-align: center;
 }
+.row.container-fluid.Signin-Pd0 p {
+    text-align: center;
+    margin: 10px 0;
+}
 
+.row.container-fluid.Signin-Pd0 .btnbtncenter {
+    text-align: center;
+}
 button.btnUploadPic {
     background: #0066B2;
     border: none;
@@ -404,7 +555,6 @@ button.btnUploadPic {
     padding: 5px 20px;
     border-radius: 5px;
     text-align: center;
-    margin-left: 10px;
     width: 155px;
 }
 
@@ -497,7 +647,7 @@ button.btnCCCD {
     border-right: 1px solid #BDBDBD;
 }
 .Info-Student .Signin .col-sm-4 .form-check {
-    padding-left: 35px;
+    padding-left: 45px;
     padding-bottom: 15px;
 }
 .row.Signin .form-check-label {
@@ -832,7 +982,7 @@ button.btn.btn-outline-danger {
     .menu ul{
         line-height: 30px;
         margin: 0;
-        padding: 0;
+        padding: 0 15px;
     }
     .menu ul li.pd70{
         padding-right: 0;
@@ -847,10 +997,12 @@ button.btn.btn-outline-danger {
     .flex-container {
         display: flex;
         justify-content: space-evenly;
-        margin-top: -15px !important;
-        transform: scale(0.6) !important;
+        margin-top: 0 !important;
+        transform: scale(0.9) !important;
         padding-right: 10px;
     }
+    
+
     .Click-Type.flex-container.FullFlexBox {
         transform: none !important;
     }
