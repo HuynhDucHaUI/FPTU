@@ -100,26 +100,27 @@
                     <p>024 730 5588</p>
                 </div>
             </div>
-            <div class="container banner">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <img src="./images/banner01.png">
-                    </div>
-                    <div class="col-sm-12">
-                        <img src="./images/banner02.png">
-                    </div>
-                    <div class="col-sm-12">
-                        <img src="./images/banner03.png">
-                    </div>
-                    <div class="col-sm-12">
-                        <img src="./images/banner04.png">
-                    </div>
-                    <div class="col-sm-12">
-                        <img src="./images/banner05.png">
-                    </div>
-
+            <div class="row">
+                <div class="col-sm-12 banner-mg-top20">
+                    <img src="./images/banner01.png" class="card-img-top">
                 </div>
+                <div class="col-sm-12 banner-mg-top20">
+                    <img src="./images/banner02.png" class="card-img-top">
+                </div>
+                <div class="col-sm-12 banner-mg-top20">
+                    <img src="./images/banner03.png" class="card-img-top">
+                </div>
+                <div class="col-sm-12 banner-mg-top20">
+                    <img src="./images/banner04.png" class="card-img-top">
+                </div>
+                <div class="col-sm-12 banner-mg-top20">
+                    <img src="./images/banner05.png" class="card-img-top">
+                </div>
+
             </div>
+            <!-- <div class="container banner">
+                
+            </div> -->
         </div>
         <div class="col-sm-8 main">
             <div class="Status-Profile">
@@ -271,7 +272,7 @@
                     Thông tin liên lạc
                     <a href="#" class="btnToggle">Ẩn bớt</a>
                 </div>
-                <div class="toggle-form">
+                <div class="toggle-form pd-bt30">
                     <div class="row">
                         <div class="col-sm-6">
                             <form>
@@ -619,7 +620,7 @@
                         </div>
                         <div class="col-sm-12 col-md-12 pd0">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="flexRadioDefault" value="" id="defaultCheck1" checked>
+                                <input class="form-check-input" type="checkbox" name="flexRadioDefault" value="" id="defaultCheck1" >
                                 <label class="form-check-label mg-left10" for="defaultCheck1">
                                   Dự thi học bổng
                                 </label>
@@ -636,21 +637,22 @@
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6">
                                                 <div class="form-group">
-                                                    <label for="formGroupExampleInput2" class="Contact">Môn:</label>
-                                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="Nhất">
+                                                    <label for="formGroupExampleInput2" class="Contest">Môn:</label>
+                                                    <input type="text" class="form-control inline-block" id="formGroupExampleInput2" placeholder="Another input" value="Nhất">
                                                   </div>
                                             </div> 
                                             <div class="col-sm-6 col-md-6">
                                                 <div class="form-group">
-                                                    <label for="formGroupExampleInput" class="width135">Giới tính:</label>
-                                                    <select id="inputState" class="form-control WidthInfoStudent">
-                                                        <option selected>Nam</option>
-                                                        <option>Nữ</option>
+                                                    <label for="formGroupExampleInput" class="Contest">Năm:</label>
+                                                    <select id="inputState" class="form-control inline-block">
+                                                        <option selected>2021</option>
+                                                        <option>2020</option>
+                                                        <option>2019</option>
                                                     </select>
                                                 </div>
                                             </div> 
-                                            <div class="col-sm-12 col-md-12">
-                                                <div class="border-Upload">
+                                            <div class="col-sm-12 col-md-12 bd-top20">
+                                                <div class="border-UploadContest">
                                                     <img src="./images/UploadPicture.svg">
                                                 </div>
                                                 <p>Upload ảnh chứng chỉ</p>
@@ -660,21 +662,21 @@
                                             </div>
                                         </div>
 
-                                        <div class="form-check">
+                                        <div class="form-check margin-top20">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                Tham gia đội tuyển quốc gia
+                                                Điểm GPA
                                             </label>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-6 col-md-6">
                                                 <div class="form-group">
-                                                    <label for="formGroupExampleInput2" class="Contact">Môn:</label>
-                                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="Nhất">
-                                                  </div>
+                                                    <label for="formGroupExampleInput2" class="Contest">Điểm:</label>
+                                                    <input type="text" class="form-control inline-block" id="formGroupExampleInput2" placeholder="Another input" value="Số điểm">
+                                                </div>
                                             </div> 
-                                            <div class="col-sm-12 col-md-12">
-                                                <div class="border-Upload">
+                                            <div class="col-sm-12 col-md-12 bd-top20">
+                                                <div class="border-UploadContest">
                                                     <img src="./images/UploadPicture.svg">
                                                 </div>
                                                 <p>Upload ảnh chứng chỉ</p>
@@ -686,21 +688,33 @@
 
                                     </div>
                                     <div class="col-sm-6 col-md-6 form-check">
-                                        <div class="row container-fluid Signin-Pd0">
-                                            <div class="col-sm-6 col-md-6">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                <label class="form-check-label" for="flexRadioDefault1">
-                                                    Giải nhất
-                                                </label>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Theo học bạ THPT
+                                            </label>
+                                        </div>
+                                        <div class="btnbtnSchoolRank">
+                                            <button>Lấy School Rank</button>
+                                        </div>
+                                        <div class="row ShoolRank-mt0">
+                                            <div class="col-md-4 col-sm-4 ShoolRank-pd0">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput2" class="ShoolRankName">Tỉnh/Thành phố:</label>
+                                                    <input type="text" class="form-control ShoolRankText" id="formGroupExampleInput2" placeholder="">
+                                                  </div>
                                             </div>
-                                            <div class="col-sm-6 col-md-6">
-                                                <div class="border-Upload">
-                                                    <img src="./images/UploadPicture.svg">
-                                                </div>
-                                                <p>Upload ảnh chứng chỉ</p>
-                                                <div class="btnbtncenter">
-                                                    <button class="btnUploadPic">Tải hình ảnh lên</button>
-                                                </div>
+                                            <div class="col-md-4 col-sm-4 ShoolRank-pd0">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput2" class="ShoolRankName">Top:</label>
+                                                    <input type="text" class="form-control ShoolRankText" id="formGroupExampleInput2" placeholder="">
+                                                  </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-4 ShoolRank-pd0">
+                                                <div class="form-group">
+                                                    <label for="formGroupExampleInput2" class="ShoolRankName">Mã Shool Rank:</label>
+                                                    <input type="text" class="form-control ShoolRankText" id="formGroupExampleInput2" placeholder="">
+                                                  </div>
                                             </div>
                                         </div>
                                     </div>
@@ -798,11 +812,11 @@
                             </div>
                             <p class="italic-nor">(ảnh 3x4)</p>
                             <div class="btnbtncenter">
-                                <button class="btnUploadCost01">Tải lên</button>
+                                <button class="btnUpload-Pic">Tải lên</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 Cost01-pd0">
                         <div class="Cost01">
                             <div class="bdCost02">
                                 <img src="./images/UploadPicture.svg">
@@ -817,14 +831,32 @@
                             <p class="TitleCost">Lệ phí</p>
                     </div>
                     <div class="col-sm-7 title14">
-                        <p>Số tiền phải đóng:</p>
-                        <p class="RedColor">200.000 VND</p>
-                        <p>Tài khoản ngân hàng:</p>
-                        <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
-                        <p class="BoldColor">STK: 0000088886666</p>
-                        <p class="BoldColor">Ngân hàng:Ngân hàng TMCP Tiên Phong - Chi nhánh Hoàn Kiếm</p>
-                        <p style="margin-top: 13px;">Nội dung chuyển khoản:</p>
-                        <p class="BoldColor">Nguyễn Huỳnh Đức - 000000000000 - Lệ phí thi học bổng 2022</p>
+                        <div class="row Cost-pd30">
+                            <div class="col-md-5 Money-mt10">
+                                <p>Số tiền phải đóng:</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="RedColor">200.000 VND</p>
+                            </div>
+                        </div>
+                        <div class="row Cost-pd30">
+                            <div class="col-md-5">
+                                <p>Tài khoản ngân hàng:</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="BoldColor">Chủ tài khoản: Trường ĐH FPT</p>
+                                <p class="BoldColor">STK: 0000088886666</p>
+                                <p class="BoldColor">Ngân hàng:Ngân hàng TMCP Tiên Phong - Chi nhánh Hoàn Kiếm</p>
+                            </div>
+                        </div> 
+                        <div class="row Cost-pd30">
+                            <div class="col-md-5">
+                                <p style="margin-top: 13px;">Nội dung chuyển khoản:</p>
+                            </div>
+                            <div class="col-md-7">
+                                <p class="BoldColor">Nguyễn Huỳnh Đức - 000000000000 - Lệ phí thi học bổng 2022</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -873,42 +905,7 @@
                     <button class="btnAddMoreFile btn"><img src="./images/Plus.png" class="plusIcon" >Thêm giấy tờ</button>
                 </div>
             </div>
-            <!-- <div class="Info-Student" style="padding-bottom: 30px;">
-                <div class="title-main">
-                   Giấy tờ khác
-                    <a href="#" class="btnToggle">Ẩn bớt</a>
-                </div>
-                <div class="toggle-form">
-                    <p style="padding: 18px 0 0 18px;font-size: 14px;font-weight: normal;margin: 0;">Tên giấy tờ</p>
-                    <div class="row pd0-mg0-bd0">
-                        <div class="col-sm-6 form-group">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input" value="Tên loại giấy tờ">
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="btnbtncenter">
-                                <button class="btnUploadCard">Tải lên</button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="container">
-                        <p style="font-size: 14px;font-weight: normal;margin: 0;">Giấy tờ đã tải lên</p>
-                        
-                        <div class="input-group add-on alert alert-dismissable mg0-pd0">
-                            <input type="text" class="form-control" value="Tên loại giấy tờ 1">
-                            <div class="input-group-btn" data-dismiss="alert">
-                                <button class="btn btn-outline-danger">x</button>
-                            </div>
-                        </div>
-                        <div class="input-group add-on alert alert-dismissable mg0-pd0">
-                            <input type="text" class="form-control" value="Tên loại giấy tờ 2">
-                            <div class="input-group-btn" data-dismiss="alert">
-                                <button class="btn btn-outline-danger">x</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            
         </div>
     </div>
      

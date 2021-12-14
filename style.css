@@ -27,6 +27,38 @@
     border-color: #f27125;
 }
 /* End CheckBox Square */
+label.Contest {
+    font-size: 14px;
+    font-weight: normal;
+    width: 50px;
+}
+.col-sm-12.col-md-12.bd-top20 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.border-UploadContest {
+    height: 132px;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    background: #D5DCE6;
+    width: 221px;
+    margin-left: 45px;
+}
+.col-sm-12.col-md-12.bd-top20 p {
+    margin: 10px 0;
+}
+.form-check.margin-top20 {
+    margin-top: 30px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+}
 .BackgrOrange {
     background: #f27125;
     height:52px;
@@ -115,6 +147,7 @@ p.italic-nor {
     font-style: italic;
     font-weight: normal !important;
     font-size: 14px !important;
+    margin: 10px 0 0 0;
 }
 
 p.center-nor {
@@ -122,7 +155,8 @@ p.center-nor {
     font-weight: normal !important;
     font-size: 14px !important;
     width: 100%;
-    padding: 1px 0 !important;
+    padding: 8px 0 0 0!important;
+    margin: 0;
 }
 .Text01 p {
     margin: 0;
@@ -201,7 +235,7 @@ p.center-nor {
     display: inline-block;
 }
 .menu ul li.pd70{
-    padding-right: 80px;
+    padding-right: 130px;
 }
 
 .menu ul li a{
@@ -311,12 +345,63 @@ footer {
     padding-bottom: 30px;
 }
 footer .container .row .col-sm-4 img {
-    width: 100%;
+    width: 270px;
     padding-right: 15%;
-    height: 59px;
+    height: 65px;
 }
 .col-sm-4.Copyright p {
     margin-top: 35px;
+}
+/* 
+.row.ShoolRank-mt0{
+    padding: 0;
+    margin-top: 30px;
+} */
+.ShoolRank-pd0 {
+    padding: 0;
+}
+
+.ShoolRankName {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 5px;
+    display: block;
+}
+.ShoolRankText {
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+.row.ShoolRank-mt0 {
+    padding-left: 35px !important;
+}
+.btnbtnSchoolRank {
+    margin: 15px 0 0 25px;
+}
+.toggle-form.pd-bt30 {
+    padding-bottom: 30px;
+}
+.col-sm-12.banner-mg-top20 {
+    margin-top: 18px;
+}
+span.font-weight-bold {
+    font-weight: 700;
+}
+.row.Cost-pd30 {
+    padding-bottom: 15px;
+}
+.col-md-5.Money-mt10 p {
+    margin-top: 10px;
+}
+.btnbtnSchoolRank button {
+    background: #0066B2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
 }
 
 .Box h5 {
@@ -382,7 +467,7 @@ footer .container .row .col-sm-12 {
 }
 .pic-user-down {
     text-align: left;
-    padding-left: 50px;
+    padding-left: 68px;
 }
 
 .icon-user i {
@@ -421,15 +506,15 @@ footer .container .row .col-sm-12 {
 }
 
 .border-arrow {
-    width: 60px;
+    width: 80px;
     border-top: 2px dotted #BDBDBD;
     position: absolute;
-    top: 29%;
-    left: 103%;
+    top: 30%;
+    left: 115%;
     transform: translate(-50%, -50%);
 }
 .arrow {
-    margin-left: 58px;
+    margin-left: 75px;
     color: #BDBDBD;
     font-size: 14px;
     position: absolute;
@@ -682,7 +767,6 @@ button.btnCCCD {
 .Cost .row .col-sm-3 p{
     font-size: 16px;
     font-weight: 700;
-    padding: 18px 0 0 18px;
 }
 .Cost .row .col-sm-2.bdbot{
     border-bottom: 1px solid #BDBDBD;
@@ -706,7 +790,7 @@ button.btnCCCD {
     padding: 0;
 }
 .Cost01 .bdCost01 {
-    width: 140px;
+    width: 150px;
     height: 215px;
     background: #D5DCE5;
     margin: 20px 0 0 20px;
@@ -718,10 +802,10 @@ button.btnCCCD {
     font-size: 95px;
     color: #828282;
     margin-top: 55px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .Cost01 .bdCost02 {
-    width: 110px;
+    width: 135px;
     height: 216px;
     background: #D5DCE5;
     margin-top: 20px;
@@ -731,19 +815,36 @@ button.btnCCCD {
     width: 80px;
     height: 55px;
     margin-top: 80px;
-    margin-left: 15px;
+    margin-left: 26px;
 }
 button.btnUploadCost01 {
-    margin-left: 45px;
     background: #0066B2;
     border: none;
     border-radius: 5px;
     color: white;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 6px;
+    margin-top: 5px;
     width: 108px;
     height: 30px;
+}
+button.btnUpload-Pic {
+    background: #0066B2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 108px;
+    height: 30px;
+}
+.col-sm-2.Cost01-pd0 {
+    padding: 0;
+}
+
+.btnbtncenter {
+    text-align: center;
 }
 .Cost01 .btnUploadCost02 {
     background: #0066B2;
@@ -1408,12 +1509,122 @@ button.btn.btn-outline-danger {
 }
  /* / fix menu in width 1200px   / */
 @media only screen and (max-width: 1200px){
+    .pic-user-down {
+        text-align: left;
+        padding-left: 42px;
+    }
     .menu ul li.pd70 {
-        padding-right: 25px;
+        padding-right: 40px;
+    }
+    .border-arrow {
+        width: 45px;
+        border-top: 2px dotted #BDBDBD;
+        position: absolute;
+        top: 29%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+      }
+      .arrow {
+        margin-left: 40px;
+        color: #BDBDBD;
+        font-size: 14px;
+        position: absolute;
+        top: -8px;
+      }
+      .row.container-fluid.Signin-Pd0 label {
+        font-size: 14px;
+        margin-top: 3px;
+        width: 65px;
+    }
+    .border-Upload {
+        height: 132px;
+        text-align: center;
+        padding: 30px;
+        border: 1px solid #BDBDBD;
+        border-radius: 8px;
+        background: #D5DCE6;
+        width: 155px;
+        margin-left: 12px;
+    }
+    .Competition {
+        width: 88px;
+        height: auto;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .WidthContactFull {
+        display: block;
+        width: 78%;
+        font-size: 13px;
+        height: 30px;
+        padding: 0 3px;
+    }
+    .row.container-fluid.Signin-Pd0 p {
+        text-align: center;
+        margin: 10px 0;
+        width: 180px;
+        font-size: 14px;
+    }
+    .row.container-fluid.Signin-Pd0 .btnbtncenter {
+        text-align: center;
+        width: 180px;
+    }
+    button.btnUploadPic {
+        background: #0066B2;
+        border: none;
+        color: white;
+        font-size: 14px;
+        padding: 5px 6px;
+        border-radius: 5px;
+        text-align: center;
+        width: 140px;
+    }
+    .border-UploadContest {
+        height: 132px;
+        text-align: center;
+        padding: 30px;
+        border: 1px solid #BDBDBD;
+        border-radius: 8px;
+        background: #D5DCE6;
+        width: 200px;
+        margin: 0;
+    }
+    .ShoolRank-pd0 {
+        padding: 0;
+        margin-right: 0px;
+        width: 130px;
+    }
+    .ShoolRankText {
+        padding: 0;
+        width: 125px;
+        height: 30px;
+    }
+    .row.ShoolRank-mt0 {
+        padding: 0;
+        margin-top: 15px;
     }
 }
  /* / Tablet 768  / */
 @media only screen and (max-width: 768px){
+    .WidthContactFull{
+        display: inline-block;
+        width: 87%;
+        font-size: 13px;
+        height: 30px;
+        padding: 0 3px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        z-index: 1000;
+        background: #f27125;
+        padding-left: 10px;
+    }
+    .pic-user-down{
+        text-align: left;
+        padding-left: 48px;
+    }
     .container.TestScholarship .btnUploadSchoolRank {
         font-size: 14px;
         width: 110px !important;
@@ -1493,11 +1704,11 @@ button.btn.btn-outline-danger {
         padding-right: 10px;
     }
     .border-arrow {
-        width: 20px;
+        width: 18px;
         border-top: 2px dotted #BDBDBD;
         position: absolute;
         top: 29%;
-        left: 113%;
+        left: 98%;
         transform: translate(-50%, -50%);
     }
     .arrow {
@@ -1508,7 +1719,7 @@ button.btn.btn-outline-danger {
         top: -8px;
     }
     .border-green {
-        margin-left: 24px;
+        margin-left: 13px;
     }
     .container{
         max-width: 100%;
@@ -1628,4 +1839,5 @@ button.btn.btn-outline-danger {
         font-size: 14px;
         text-align: center !important;
     }
+    
 }
